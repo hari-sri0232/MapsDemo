@@ -1,0 +1,49 @@
+PODS:
+  - Alamofire (4.7.3)
+  - GoogleMaps (3.10.0):
+    - GoogleMaps/Maps (= 3.10.0)
+  - GoogleMaps/Base (3.10.0)
+  - GoogleMaps/Maps (3.10.0):
+    - GoogleMaps/Base
+  - GooglePlaces (3.10.0):
+    - GoogleMaps/Base (= 3.10.0)
+  - Polyline (4.2.1)
+  - SwiftyJSON (4.3.0)
+  - SwiftyXMLParser (5.1.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.7.0)
+  - GoogleMaps
+  - GooglePlaces
+  - Polyline (~> 4.0)
+  - SwiftyJSON (~> 4.0)
+  - SwiftyXMLParser (from `https://github.com/yahoojapan/SwiftyXMLParser.git`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Alamofire
+    - GoogleMaps
+    - GooglePlaces
+    - Polyline
+    - SwiftyJSON
+
+EXTERNAL SOURCES:
+  SwiftyXMLParser:
+    :git: https://github.com/yahoojapan/SwiftyXMLParser.git
+
+CHECKOUT OPTIONS:
+  SwiftyXMLParser:
+    :commit: ec6c1b66f295020dfa89b81299a573d4ed858f15
+    :git: https://github.com/yahoojapan/SwiftyXMLParser.git
+
+SPEC CHECKSUMS:
+  Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
+  GoogleMaps: 8c080862ff2748ece9929471b30feb56a6c5079d
+  GooglePlaces: 9a6f5f3a0c88da2aa1bf7426a65d3e004f5e69a1
+  Polyline: 0e9890790292741c8186201a536b6bb6a78d02dd
+  SwiftyJSON: 6faa0040f8b59dead0ee07436cbf76b73c08fd08
+  SwiftyXMLParser: c39a7854b7d32e447e19d0fabdd98696fe26f03a
+
+PODFILE CHECKSUM: 7ead575d58725f08014628efd8f67c4941b086e5
+
+COCOAPODS: 1.9.3
