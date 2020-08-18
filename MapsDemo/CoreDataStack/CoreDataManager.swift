@@ -13,7 +13,6 @@ import GooglePlaces
 class CoreDataManager: NSObject {
     
     static let sharedInstance = CoreDataManager()
-    
     let appDel = UIApplication.shared.delegate as! AppDelegate
     
     public var profile:UserProfile {
